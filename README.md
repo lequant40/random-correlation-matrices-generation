@@ -8,7 +8,7 @@ Later, Opdyke [3] introduced an inverse method sampling algorithm for this proba
 
 This repository contains a Jupyter notebook comparing the practical performances of these two sampling algorithms.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lequant40/random-correlation-matrices-generation/HEAD?labpath=random correlation matrices generation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lequant40/random-correlation-matrices-generation/HEAD?labpath=random_correlation_matrices_generation.ipynb)
 
 # References
 
