@@ -4,11 +4,14 @@ Random correlation matrices can be generated using an algorithm due to Pourahmad
 
 This algorithm relies internally on a procedure to generate random samples from a specific probability density, for which Makalic and Schmidt [2] initially proposed an efficient rejection sampling algorithm.
 
-Later, Opdyke [3] introduced an inverse method sampling algorithm for this probability density, improving the performances of the Makalic and Schmidt's algorithm.
+Later, Opdyke [3] introduced an analytical expression for the c.d.f. of this probability density as well as an analytical expression for its inverse function. This allows in particular 
+to use the inverse transform method instead of the rejection sampling algorithm, thus improving the performances of Pourahmadi and Wang's algorithm to generate random correlation matrices.
 
 This repository contains a Jupyter notebook comparing the practical performances of these two sampling algorithms.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lequant40/random-correlation-matrices-generation/HEAD?labpath=random_correlation_matrices_generation.ipynb)
+
+To be noted, though, that Opdyke's derivation of the inverse c.d.f. of Makalic and Schmidt's probability density allows for much more advanced use-cases, detailled in his presentation.
 
 # References
 
